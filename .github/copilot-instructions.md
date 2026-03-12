@@ -41,3 +41,6 @@ Be concise. Skip preamble, summaries, and closing remarks unless asked. Show cod
 - Database migrations are versioned (Flyway / Alembic)
 - All infrastructure changes go through IaC (Terraform preferred)
 - Container images are minimal (multi-stage, non-root, distroless/alpine)
+
+## Task Completion
+Whenever an agent answers a question, finishes a task or has follow-up questions to ask the user, use the AskQuestions tool to gather more information. Always do this before ending the task. This allows you to clarify any uncertainties and ensure that you have all the necessary information to complete the task effectively. Only end the task when the user has no more questions or can confirm that the task is complete. Always prompt the user to ask any follow-up questions they may have before ending the task. This will help ensure that the user is satisfied with the outcome and that all their concerns have been addressed.
