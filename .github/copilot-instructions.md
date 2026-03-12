@@ -1,8 +1,5 @@
 # myr-army Project Guidelines
 
-## Token Optimization
-Be concise. Skip preamble, summaries, and closing remarks unless asked. Show code directly.
-
 ## Stack Overview
 - Backend: Python (FastAPI), Java (Spring Boot), Go
 - Cloud: AWS, GCP
